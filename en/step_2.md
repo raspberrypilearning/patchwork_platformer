@@ -21,6 +21,8 @@ Choose an id or ask your club leader or teacher for one.
 
 Change the name of the **id floor** sprite to use your new **id**. *e.g. ellis floor or hull code club floor*
 
+--- /task ---
+
 --- task ---
 
 In the code for the floor sprite, change the `wait until`{:class="block3control"} blocks, to they are waiting until the `id`{:class="block3variables"} variable matches your new id.
