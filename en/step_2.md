@@ -2,7 +2,7 @@
 
 --- task ---
 
-Open the starter project at [rpf.io/pp](https://rpf.io/pp){:target="_blank"}
+Open the starter project at [rpf.io/pp](https://rpf.io/pp-starter){:target="_blank"}
 
 --- /task ---
 
@@ -25,7 +25,7 @@ Change the name of the **id floor** sprite to use your new **id**. *e.g. ellis f
 
 --- task ---
 
-In the code for the floor sprite, change the `wait until`{:class="block3control"} blocks, to they are waiting until the `id`{:class="block3variables"} variable matches your new id.
+In the code for the floor sprite, change the `wait until`{:class="block3control"} blocks, to they are waiting until the `id`{:class="block3variables"} variable matches your new **id**.
 
 ```blocks3
 when flag clicked
@@ -39,7 +39,7 @@ hide
 
 --- task ---
 
-Add a new message so that the `broadcast id`{:class="block3control"} waits for your id to be broadcast.
+Add a new message so that the `broadcast`{:class="block3control"} waits for your **id** to be broadcast.
 
 ```blocks3
 +when I receive [my id v]
@@ -70,7 +70,8 @@ Hide the `ids`{:class="block3variables"} list.
 --- task ---
 
 Click the green flag. The player sprite should be positioned in the bottom left of the screen.
-Then press **n** on your keyboard.
+
+Press **n** on your keyboard.
 
 The floor sprite should appear, and the player sprite change position and fall on to it.
 
