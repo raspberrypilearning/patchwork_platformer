@@ -5,10 +5,7 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Start your level
     completion:
       - engaged      
-  - title: Challenge
-    challenge: true
-    completion:
-      - external
+  - title: Postion your player and floor
