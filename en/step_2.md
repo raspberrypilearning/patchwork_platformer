@@ -2,7 +2,7 @@
 
 --- task ---
 
-Open the starter project at [rpf.io/pp](https://rpf.io/pp-starter){:target="_blank"}
+Open the starter project at [rpf.io/pp-starter](https://rpf.io/pp-starter){:target="_blank"}
 
 --- /task ---
 
