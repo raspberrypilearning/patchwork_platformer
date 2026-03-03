@@ -6,9 +6,11 @@ Open the starter project at [rpf.io/pp](https://rpf.io/pp-starter){:target="_bla
 
 --- /task ---
 
-The project has two sprites. **player** is the sprite that will move between the levels.
+The project has two sprites.
 
-**id floor** is a sprite that will act as a floor to start.
+- **player** is the sprite that will move between the levels.
+
+- **id floor** is a sprite that will act as a floor to start.
 
 --- task ---
 

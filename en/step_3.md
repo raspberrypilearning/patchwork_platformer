@@ -24,11 +24,7 @@ Click the green flag and then press **n** to test the positions.
 
 --- /task ---
 
-You can change the floor into a platform if you like.
-
-It depends on what your level is going to look like.
-
-Change the size of the sprite, its colour, and then it's positon.
+You can change the floor into a platform if you like. It depends on what your level is going to look like. You can change the size of the sprite, its colour, and then it's positon.
 
 It must have a black outline though, so that the player can collide with it.
 
