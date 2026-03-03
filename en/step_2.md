@@ -6,13 +6,16 @@ Open the starter project at [rpf.io/pp](https://rpf.io/pp-starter){:target="_bla
 
 --- /task ---
 
-The project has two sprites. **player** is the sprite that will move between levels. **id floor** is a sprite that will act as a platform, and that you can copy to make other platforms.
+The project has two sprites. **player** is the sprite that will move between the levels.
+
+**id floor** is a sprite that will act as a floor to start.
 
 --- task ---
 
 Choose an id or ask your club leader or teacher for one.
 
 - If you are making a colaborative project with other people in your club or class, it might be your name. *e.g. ellis*
+
 - If you are making a colaborative project with other clubs or classes, it might be your club or class name. *e.g. hull code club or e.g. 7C*
 
 --- /task ---
@@ -73,7 +76,7 @@ Click the green flag. The player sprite should be positioned in the bottom left 
 
 Press **n** on your keyboard.
 
-The floor sprite should appear, and the player sprite change position and fall on to it.
+The floor sprite should appear, and the player sprite changes position and falls on to it.
 
 You can move the player sprite using the left and right arrow keys, and use the up arrow key to jump. (⬅️⬆️➡️)
 
