@@ -9,4 +9,9 @@ steps:
     completion:
       - engaged      
   - title: Postion your player and floor
-  - title: Owl
+  - title: Add more sprites
+  - title: End your level
+    completion:
+      - complete
+  - title: Export your sprites
+
