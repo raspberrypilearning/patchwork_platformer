@@ -8,10 +8,8 @@ steps:
   - title: Start your level
     completion:
       - engaged      
-  - title: Postion your player and floor
-  - title: Add more sprites
-  - title: End your level
+  - title: Create your level
+  - title: Share your level
     completion:
       - complete
-  - title: Export your sprites
 

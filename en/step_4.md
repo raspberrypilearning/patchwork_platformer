@@ -1,37 +1,26 @@
-## Add more sprites
+## Share your level
 
-You can add more sprites to your game.
+--- task ---
 
-Every sprite needs a unique name, so use your id such as `ellis Bear-walking` or `hull code club Cheesy Puffs`
+When you are happy that your level works, save your project and share it with your club leader, teacher, or whomever is going to stitch the levels together.
 
-Every sprite must have the starting script and use your id.
+--- /task ---
 
-```blocks3
-when flag clicked
-hide
-wait until <(id) = [my id]>
-wait until <not<(id) = [my id]>>
-hide
-stop [other scripts in sprite v]
-```
+--- collapse ---
 
-They will also need to `show`{:class="block3looks"} and have the starting position set using `go to x: y:`{:class="block3motion"}
+---
 
-```blocks3
-when I receive [my id v]
-show
-go to x:() y:()
-```
+title: Stitching the project together
 
-- [ ] **If the sprite needs to stop the player's motion, it needs to be `black` in colour.**
-- [ ] You can add any code you like to your other sprites, underneath a `when I receive`{:class="block3events"} block.
-- [ ] **If you are creating variables, lists, or custom blocks, make sure they have unique names such as `hull code club score`{:class="block3variables"} or `ellis random move`{:class="block3custom"}**
-- [ ] New sprites can be things the player can move on, things the player might have to avoid, things the player might have to collect.
-- [ ] **DO NOT ADD OR CHANGE THE BLOCKS ON THE PLAYER SPRITE**
-- [ ] If a sprite needs to be interacted with, then it could use `say`{:class="block3looks"} blocks so that the player knows what they need to do.
+---
 
-```blocks3
-say [collect me] for (1) seconds
+1. Open the project that has been shared with you.
+2. Click on each of the sprites that are in the project and export them.
+![](images/export.png)
+3. Open the original starter project and remix it.
+4. Import all the sprites you exported.
+![](images/upload.png)
+5. Repeat for each project that has been shared with you.
 
-say [avoid me] for (1) seconds
-```
+
+--- /collapse ---

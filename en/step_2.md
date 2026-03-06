@@ -2,84 +2,66 @@
 
 --- task ---
 
-Open the starter project at [rpf.io/pp-starter](https://rpf.io/pp-starter){:target="_blank"}
+Open the starter project at [rpf.io/patchwork-game](https://rpf.io/patchwork-game){:target="_blank"}
 
 --- /task ---
 
 The project has two sprites.
 
-- **player** is the sprite that will move between the levels.
+Click the green flag to start the game.
+1. On the first level the green player sprite will fall to the floor. Use the right arrow key (➡️) to move the player sprite to the end of the screen.
+2. The next level will start, showing the Scratch cat appear for three seconds.
+3. The next level will start. Move the purple player sprite to the end of the screen to start the game again.
 
-- **id floor** is a sprite that will act as a floor to start.
+You're going to make your own level, adding your own sprites and code.
 
 --- task ---
 
-Choose an id or ask your club leader or teacher for one.
+Choose a name for your level. It has to be unique to you, and something nobody else would choose. It's a little like a username.
 
-- If you are making a colaborative project with other people in your club or class, it might be your name. *e.g. ellis*
+Replace `my level`{:class="block3variables"} in the `levels`{:class="block3variables"} list, so that your level name appears as the second item.
 
-- If you are making a colaborative project with other clubs or classes, it might be your club or class name. *e.g. hull code club or e.g. 7C*
+![](images/levels_list.png)
 
 --- /task ---
 
---- task ---
-
-Change the name of the **id floor** sprite to use your new **id**. *e.g. ellis floor or hull code club floor*
-
---- /task ---
+`my level cat` is a sprite that has the scripts you need for your level.
 
 --- task ---
 
-In the code for the floor sprite, change the `wait until`{:class="block3control"} blocks, to they are waiting until the `id`{:class="block3variables"} variable matches your new **id**.
+This script makes sure that your sprites appears at the start of your level and dissappears when your level has been completed.
+
+Edit the `wait until`{:class="block3control"} blocks, so that `level`{:class="block3variables"} is compared to the level name you added to the list.
 
 ```blocks3
-when flag clicked
+when i receive [start v]
 hide
-+wait until <(id) = [my id]>
-+wait until <not<(id) = [my id]>>
++ wait until <(level) = [my level]> //change this to your level name
++ wait until <not<(level) = [my level]>> //change this to your level name
 hide
+stop [other scripts in sprite v]
 ```
 
 --- /task ---
 
 --- task ---
 
-Add a new message so that the `broadcast`{:class="block3control"} waits for your **id** to be broadcast.
+Edit the script that starts your logic, by adding a broadcast that matches your level name.
 
-```blocks3
-+when I receive [my id v]
+Change the `say`{:class="block3looks"} block so the cat says something different.
+
++ when I receive [my level v] //add a broadcast message matching your level name
 show
-set [x position v] to (-180)
-set [y position v] to (0)
-go to x:(90) y:(-160)
-```
++ say [my easy level] for [3] seconds //add your own message here to test
 
 --- /task ---
 
 --- task ---
 
-Add your **id** to the `ids`{:class="block3variables"} list.
+Click the green flag.
 
-![](images/ids_list.png)
+Complete the first level by moving the player sprite to the right of the screen.
 
---- /task ---
-
---- task ---
-
-Hide the `ids`{:class="block3variables"} list.
-
-![](images/hidden_list.png)
-
---- /task ---
-
---- task ---
-
-Click the green flag. The player sprite should be positioned in the bottom left of the screen.
-
-Press **n** on your keyboard.
-
-The floor sprite should appear, and the player sprite changes position and falls on to it.
-
-You can move the player sprite using the left and right arrow keys, and use the up arrow key to jump. (⬅️⬆️➡️)
+Make sure that the Scratch cat still appears and says the text your wrote.
 
 --- /task ---
