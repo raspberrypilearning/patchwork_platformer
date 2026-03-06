@@ -1,31 +1,39 @@
-## Postion your player and floor
+## Create your level
 
-At the start of your level, you can decide where the player sprite starts and where the floor is positioned.
+You can add any sprites you like to the game, or duplicate the cat sprite and change its costume. Rename the sprites so that their name includes your unique level name.
 
-The starting position of the player is set by the `x positon`{:class="block3variables"} and `y position`{:class="block3variables"} variables.
+Your level can be about anything you choose. Here are the rules that you must follow.
 
-The starting positon of the floor **must be set using** the `go to x: y:`{:class="block3motion"}
+1. You can't use `when flag clicked`{:class="block3events"} blocks.
+2. `when I receive my level`{:class="block3events"} is the block that will start your scripts.
+3. All variables, lists, or custom blocks you add must be named using your unique level name. e.g. `my_level_name score`{:class="block3variables"}
+4. You can not change the code on the sprites included in the starter project. Leave `start player`, `end player`, `start floor` and `end floor` alone.
+5. You can not add or edit code on the Stage. You can not add Backdrops. If you want your own background scenery then it will have to be a sprite.
+6. If the player needs instructions for your level, they need to be included by having sprites `say`{:class="block3looks"} what needs to be done.
+
+Your level needs to end at some point. Maybe the player reaches a goal, answers some questions, achieves a certain score.
+
+The following code is included with the `my level cat`. This will end your level and progress to the next level.
+
+```blocks3
+set [level change v] to [true]
+hide
+stop [this script v]
+```
+
+In testing, your sprites might not be visible. You can press **M** on your keyboard to reveal sprites, so long as they have this script on them.
+
+```blocks3
+when I receive [edit mode v]
+show
+```
+
+In testing you might want to manually move to the next level. You can press **N** on your keyboard to set `level change`{:class="block3variables"} to `true` and move to the next level.
 
 --- task ---
 
-Change the starting position of the floor and the starting position of the player.
+Add sprites, variables and code blocks to make your own level.
 
-This can be anywhere on the screen that you like.
-
-```blocks3
-when I receive [my id v]
-show
-+set [x position v] to (-180)
-+set [y position v] to (0)
-+go to x:(90) y:(-160)
-```
-
-Click the green flag and then press **n** to test the positions.
+When you are done you should be able to click the green flag, complete the first level, see your level and complete it, see the end level.
 
 --- /task ---
-
-You can change the floor into a platform if you like. It depends on what your level is going to look like. You can change the size of the sprite, its colour, and then it's positon.
-
-It must have a black outline though, so that the player can collide with it.
-
-![](images/positon_platform.png)
