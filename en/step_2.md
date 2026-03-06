@@ -13,8 +13,6 @@ Click the green flag to start the game.
 2. The next level will start, showing the Scratch cat appear for three seconds.
 3. The next level will start. Move the purple player sprite to the end of the screen to start the game again.
 
---- task ---
-
 You're going to make your own level, adding your own sprites and code.
 
 --- task ---
