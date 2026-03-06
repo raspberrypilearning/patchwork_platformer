@@ -50,9 +50,11 @@ Edit the script that starts your logic, by adding a broadcast that matches your 
 
 Change the `say`{:class="block3looks"} block so the cat says something different.
 
+```blocks3
 + when I receive [my level v] //add a broadcast message matching your level name
 show
 + say [my easy level] for [3] seconds //add your own message here to test
+```
 
 --- /task ---
 
