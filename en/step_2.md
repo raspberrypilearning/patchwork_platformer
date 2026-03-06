@@ -2,7 +2,7 @@
 
 --- task ---
 
-Open the starter project at [rpf.io/pp-starter](https://scratch.mit.edu/projects/1287132491/editor/){:target="_blank"}
+Open the starter project at [rpf.io/patchwork-game](https://rpf.io/patchwork-game){:target="_blank"}
 
 --- /task ---
 

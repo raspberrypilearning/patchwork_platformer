@@ -10,6 +10,7 @@ Your level can be about anything you choose. Here are the rules that you must fo
 4. You can not change the code on the sprites included in the starter project. Leave `start player`, `end player`, `start floor` and `end floor` alone.
 5. You can not add or edit code on the Stage. You can not add Backdrops. If you want your own background scenery then it will have to be a sprite.
 6. If the player needs instructions for your level, they need to be included by having sprites `say`{:class="block3looks"} what needs to be done.
+7. Set the starting position of **all** your sprites, using `go to x: y:`{:class="block3motion"} blocks.
 
 Your level needs to end at some point. Maybe the player reaches a goal, answers some questions, achieves a certain score.
 
