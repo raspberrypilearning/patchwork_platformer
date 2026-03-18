@@ -1,69 +1,42 @@
-## Start your level
+## Create your level
 
---- task ---
+You can add any sprites you like to the game, or duplicate the cat sprite and change its costume. Rename the sprites so that their name includes your unique level name.
 
-Open the starter project at [rpf.io/patchwork-game](https://rpf.io/patchwork-game){:target="_blank"}
+Copy over the scripts from the cat to any new sprites that you add.
 
---- /task ---
+Your level can be about anything you choose. Here are the rules that you must follow.
 
-The project has two sprites.
+1. You can't use `when flag clicked`{:class="block3events"} blocks.
+2. `when I receive my level`{:class="block3events"} is the block that will start your scripts.
+3. All variables, lists, or custom blocks you add must be named using your unique level name. e.g. `my_level_name score`{:class="block3variables"}
+4. You can not change the code on the sprites included in the starter project. Leave `start player`, `end player`, `start floor` and `end floor` alone.
+5. You can not add or edit code on the Stage. You can not add Backdrops. If you want your own background scenery then it will have to be a sprite.
+6. If the player needs instructions for your level, they need to be included by having sprites `say`{:class="block3looks"} what needs to be done.
+7. Set the starting position of **all** your sprites, using `go to x: y:`{:class="block3motion"} blocks.
 
-Click the green flag to start the game.
-1. On the first level the green player sprite will fall to the floor. Use the right arrow key (➡️) to move the player sprite to the end of the screen.
-2. The next level will start, showing the Scratch cat appear for three seconds.
-3. The next level will start. Move the purple player sprite to the end of the screen to start the game again.
+Your level needs to end at some point. Maybe the player reaches a goal, answers some questions, achieves a certain score.
 
-You're going to make your own level, adding your own sprites and code.
-
---- task ---
-
-Choose a name for your level. It has to be unique to you, and something nobody else would choose. It's a little like a username.
-
-Replace `my level`{:class="block3variables"} in the `levels`{:class="block3variables"} list, so that your level name appears as the second item.
-
-![](images/levels_list.png)
-
---- /task ---
-
-`my level cat` is a sprite that has the scripts you need for your level.
-
---- task ---
-
-This script makes sure that your sprites appears at the start of your level and dissappears when your level has been completed.
-
-Edit the `wait until`{:class="block3control"} blocks, so that `level`{:class="block3variables"} is compared to the level name you added to the list.
+The following code is included with the `my level cat`. This will end your level and progress to the next level.
 
 ```blocks3
-when i receive [start v]
+set [level change v] to [true]
 hide
-+ wait until <(level) = [my level]> //change this to your level name
-+ wait until <not<(level) = [my level]>> //change this to your level name
-hide
-stop [other scripts in sprite v]
+stop [this script v]
 ```
 
---- /task ---
-
---- task ---
-
-Edit the script that starts your logic, by adding a broadcast that matches your level name.
-
-Change the `say`{:class="block3looks"} block so the cat says something different.
+In testing, your sprites might not be visible. You can press **M** on your keyboard to reveal sprites, so long as they have this script on them.
 
 ```blocks3
-+ when I receive [my level v] //add a broadcast message matching your level name
+when I receive [edit mode v]
 show
-+ say [my easy level] for [3] seconds //add your own message here to test
 ```
 
---- /task ---
+In testing you might want to manually move to the next level. You can press **N** on your keyboard to set `level change`{:class="block3variables"} to `true` and move to the next level.
 
 --- task ---
 
-Click the green flag.
+Add sprites, variables and code blocks to make your own level.
 
-Complete the first level by moving the player sprite to the right of the screen.
-
-Make sure that the Scratch cat still appears and says the text your wrote.
+When you are done you should be able to click the green flag, complete the first level, see your level and complete it, see the end level.
 
 --- /task ---
