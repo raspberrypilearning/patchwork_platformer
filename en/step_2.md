@@ -2,6 +2,8 @@
 
 You can add any sprites you like to the game, or duplicate the cat sprite and change its costume. Rename the sprites so that their name includes your unique level name.
 
+Copy over the scripts from the cat to any new sprites that you add.
+
 Your level can be about anything you choose. Here are the rules that you must follow.
 
 1. You can't use `when flag clicked`{:class="block3events"} blocks.

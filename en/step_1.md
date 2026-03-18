@@ -19,11 +19,9 @@ Click the green flag to start the game.
 
 The two player sprites and the two floors are for levels 1 and 3. The Scratch Cat sprite is for level 2. The game you submit will start with level 1, then progress to your level, then finish with level 3.
 
---- task ---
-
 The level created will need a unique identifier. This identifier should be chosen to avoid clashes with other submitted projects.
 
---- /task ---
+--- task ---
 
 Replace `my level`{:class="block3variables"} in the `levels`{:class="block3variables"} list, so that your unique identifier is item 2.
 
