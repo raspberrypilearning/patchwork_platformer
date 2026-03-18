@@ -1,15 +1,10 @@
 title: Patchwork platformer
 hero_image: images/banner.png
-description: A short description of the project
-listed: false
+description: Create a collaborative game
 pdf: false
 steps:
   - title: What you will make
-  - title: Start your level
-    completion:
-      - engaged      
   - title: Create your level
   - title: Share your level
-    completion:
-      - complete
+
 
